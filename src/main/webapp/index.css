@@ -1,0 +1,47 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin: 1px 10px;
+    height: 80px;
+}
+
+label, input {
+    margin-bottom: 5px;
+    display: block;
+    background-color: transparent;
+    font-weight: bold;
+}
+input{
+    border: #93e4c1 2px solid;
+}
+input[type="text"]{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    border: black 1px solid;
+}
+input[type="button"]{
+    width: 15%;
+    height: 75px;
+    margin-left: 10px;
+    border-radius: 10px;
+    align-self: center;
+}
+input[type="button"]:hover{
+    border: #118a7e 3px solid;
+}
+div{
+    padding: 1%;
+    width: 40%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Phone Book</title>
+</head>
+
+<body onload="findNumbers()">
+<table>
+    <tr>
+        <th id="title">Phone Book</th>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                </div>
+                <div>
+                    <label for="number">Number:</label><br>
+                    <input type="text" id="number" name="number">
+                </div>
+                <input type="button" onclick="addContact()" value="ADD">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <ul id="numbers">
+            </ul>
+        </td>
+    </tr>
+</table>
+</body>
+
+</html>
